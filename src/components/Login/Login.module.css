@@ -6,7 +6,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Gradient background */
+
 .page {
   min-height: 100vh;
   background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
@@ -16,7 +16,6 @@
   justify-content: center;
 }
 
-/* Black card */
 .card {
   width: 350px;
   background: #000;
@@ -26,7 +25,6 @@
   color: #fff;
 }
 
-/* Instagram text */
 .instaText {
   font-family: "Pacifico", cursive;
   font-size: 38px;
@@ -39,7 +37,6 @@
   width: 50px;
 }
 
-/* Inputs */
 .input {
   width: 100%;
   padding: 10px;
@@ -55,7 +52,6 @@
   color: #aaa;
 }
 
-/* Errors */
 .error {
   color: #ff6b6b;
   font-size: 12px;
@@ -63,7 +59,6 @@
   margin-bottom: 6px;
 }
 
-/* Login button */
 .loginBtn {
   width: 100%;
   padding: 10px;
@@ -81,7 +76,6 @@
   cursor: not-allowed;
 }
 
-/* OR divider */
 .or {
   display: flex;
   align-items: center;
@@ -100,7 +94,6 @@
   color: #aaa;
 }
 
-/* Facebook login */
 .fbLogin {
   display: flex;
   align-items: center;
@@ -115,7 +108,6 @@
   font-size: 18px;
 }
 
-/* Forgot password */
 .forgot {
   margin-top: 15px;
   font-size: 13px;
@@ -123,7 +115,6 @@
   cursor: pointer;
 }
 
-/* Signup box */
 .signupBox {
   margin-top: 25px;
   padding-top: 15px;
@@ -137,7 +128,6 @@
   cursor: pointer;
 }
 
-/* Get app section */
 .getApp {
   margin-top: 20px;
   text-align: center;
