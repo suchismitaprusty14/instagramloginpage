@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.card {
+  width: 350px;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  background: linear-gradient(
+    135deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+}
+
+.instaText {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  font-weight: 100;
+  color: #ffffff;
+  margin: 10px 0 20px 0;
+}
+
+.instaLogo {
+  margin-bottom: -30px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.loginBtn {
+  width: 100%;
+  padding: 8px;
+  background-color: #0095f6;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.loginBtn:disabled {
+  background-color: #b2dffc;
+  cursor: not-allowed;
+}
+
+.or {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #8e8e8e;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.or span {
+  flex: 1;
+  height: 1px;
+  background: #dbdbdb;
+}
+
+.or p {
+  margin: 0 10px;
+}
+
+.fbLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  color: #2d4883;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.fbIcon {
+  font-size: 18px;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #00376b;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.signupBox {
+  width: 100%;
+  max-width: 350px;
+  background: #ffffff;
+  border: 1px solid #dbdbdb;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.signupBox span {
+  color: #0095f6;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.getApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.getAppText {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #262626;
+}
+
+.appLinks {
+  display: flex;
+  gap: 10px;
+}
+
+.appLinks img {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.appLinks img:hover {
+  transform: scale(1.05);
+}
+
+.error {
+  color: black;
+  font-size: 12px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+
+@media (max-width: 480px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  .instaLogo {
+    width: 36px;
+  }
+
+  .instaText {
+    font-size: 36px;
+  }
+}
