@@ -1,2 +1,3 @@
 #Instagram Login Page – React
-Instagram Login page is a react app . it have username and password for login . and have input validation using pattern matching.it a user friendly and it includes instagram branding.
+Instagram Login page is a react app . This project is a responsive Instagram-style Login Page built using React and CSS Modules.
+It includes client-side form validation for email/phone and password, and follows component-based architecture.
