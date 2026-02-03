@@ -3,153 +3,157 @@
 
 * {
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Gradient background */
 .page {
   min-height: 100vh;
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #fafafa;
-  padding: 20px;
 }
 
+/* Black card */
 .card {
   width: 350px;
-  padding: 40px 30px;
-  border-radius: 16px;
+  background: #000;
+  padding: 30px 25px;
+  border-radius: 12px;
   text-align: center;
-  background: linear-gradient(
-    135deg,
-    #405de6,
-    #5851db,
-    #833ab4,
-    #c13584,
-    #e1306c,
-    #fd1d1d
-  );
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.35);
+  color: #fff;
 }
 
+/* Instagram text */
 .instaText {
   font-family: "Pacifico", cursive;
-  font-size: 40px;
-  font-weight: 100;
-  color: #ffffff;
-  margin: 10px 0 20px 0;
+  font-size: 38px;
+  margin-bottom: 25px;
+  font-weight: lighter;
 }
 
 .instaLogo {
-  margin-bottom: -30px;
+  margin-bottom:-20px;
+  width: 50px;
 }
 
+/* Inputs */
 .input {
   width: 100%;
   padding: 10px;
   margin-bottom: 8px;
-  background: #fafafa;
-  border: 1px solid #dbdbdb;
-  border-radius: 3px;
-  font-size: 12px;
+  background: #222;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
 }
 
+.input::placeholder {
+  color: #aaa;
+}
+
+/* Errors */
+.error {
+  color: #ff6b6b;
+  font-size: 12px;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+/* Login button */
 .loginBtn {
   width: 100%;
-  padding: 8px;
-  background-color: #0095f6;
+  padding: 10px;
+  margin-top: 10px;
+  background: #3897f0;
   border: none;
-  color: #ffffff;
+  border-radius: 8px;
+  color: white;
   font-weight: bold;
-  border-radius: 4px;
-  margin-top: 8px;
   cursor: pointer;
 }
 
 .loginBtn:disabled {
-  background-color: #b2dffc;
+  background: #6faef5;
   cursor: not-allowed;
 }
 
+/* OR divider */
 .or {
   display: flex;
   align-items: center;
   margin: 20px 0;
-  color: #8e8e8e;
-  font-size: 12px;
-  font-weight: bold;
 }
 
 .or span {
   flex: 1;
   height: 1px;
-  background: #dbdbdb;
+  background: #333;
 }
 
 .or p {
   margin: 0 10px;
+  font-size: 12px;
+  color: #aaa;
 }
 
+/* Facebook login */
 .fbLogin {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 6px;
-  color: #2d4883;
+  justify-content: center;
+  gap: 8px;
+  color: #3897f0;
   font-weight: bold;
-  font-size: 14px;
   cursor: pointer;
-  margin-bottom: 15px;
 }
 
 .fbIcon {
   font-size: 18px;
 }
 
+/* Forgot password */
 .forgot {
-  font-size: 12px;
-  color: #00376b;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #3897f0;
   cursor: pointer;
-  margin-bottom: 10px;
 }
 
+/* Signup box */
 .signupBox {
-  width: 100%;
-  max-width: 350px;
-  background: #ffffff;
-  border: 1px solid #dbdbdb;
-  padding: 10px;
-  text-align: center;
-  margin-top: 10px;
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid #333;
   font-size: 14px;
-  border-radius: 3px;
 }
 
 .signupBox span {
-  color: #0095f6;
+  color: #3897f0;
   font-weight: bold;
   cursor: pointer;
 }
 
+/* Get app section */
 .getApp {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
+  color: #fff;
 }
 
 .getAppText {
   margin-bottom: 10px;
-  font-size: 14px;
-  color: #262626;
 }
 
 .appLinks {
   display: flex;
   gap: 10px;
+  justify-content: center;
 }
+
 
 .appLinks img {
   height: 40px;
@@ -162,7 +166,7 @@
 }
 
 .error {
-  color: black;
+  color:red;
   font-size: 12px;
   margin-top: -5px;
   margin-bottom: 5px;
