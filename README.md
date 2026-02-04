@@ -28,7 +28,7 @@ src/
  ├── App.js
  └── index.js
 clone code
-git clone https://github.com/your-username/instagramlogin.git
+git clone https://github.com/suchismitaprusty14/instagramlogin.git
 How to Run the Project======>
 npm install
 npm start
