@@ -16,7 +16,7 @@ React Icons
 HTML5
 
 my folder structure
-====================
+
 src/
  ├── assets/
  │    └── images/
@@ -27,9 +27,9 @@ src/
  │         └── Login.module.css
  ├── App.js
  └── index.js
-
-🚀 How to Run the Project
-===========================
+clone code
+git clone https://github.com/your-username/instagramlogin.git
+How to Run the Project======>
 npm install
 npm start
 The application will run on: http://localhost:3000
